@@ -1,0 +1,47 @@
+﻿{
+  "$schema": "https://statics.teams.microsoft.com/sdk/v1.0/manifest/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.0",
+  "version": "1.0.0",
+  "id": "82fbe1fe-c718-4672-945f-d4e8ae5f1675",
+  "packageName": "com.contoso.helloworld",
+  "developer": {
+    "name": "Contoso",
+    "websiteUrl": "https://www.microsoft.com",
+    "privacyUrl": "https://www.microsoft.com/privacy",
+    "termsOfUseUrl": "https://www.microsoft.com/termsofuse"
+  },
+  "name": {
+    "short": "Weather Info",
+    "full": "Weather Info App for Microsoft Teams"
+  },
+  "description": {
+    "short": "Weather Info App for Microsoft Teams",
+    "full": "This sample app provides a very simple app for Microsoft Teams"
+  },
+  "icons": {
+    "outline": "contoso20x20.png",
+    "color": "contoso96x96.png"
+  },
+  "accentColor": "#60A18E",
+  "staticTabs": [
+    {
+      "entityId": "com.contoso.helloworld.hellotab",
+      "name": "Hello Tab",
+      "contentUrl": "https://weatherinfo20181024050533.azurewebsites.net/summary",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://weatherinfo20181024050533.azurewebsites.net/configuration",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team"
+      ]
+    }
+  ],
+  "permissions": [],
+  "validDomains": []
+}
