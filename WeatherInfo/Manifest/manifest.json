@@ -3,9 +3,9 @@
   "manifestVersion": "1.0",
   "version": "1.0.0",
   "id": "82fbe1fe-c718-4672-945f-d4e8ae5f1675",
-  "packageName": "com.contoso.helloworld",
+  "packageName": "weatherinfo",
   "developer": {
-    "name": "Contoso",
+    "name": "Oleksii",
     "websiteUrl": "https://www.microsoft.com",
     "privacyUrl": "https://www.microsoft.com/privacy",
     "termsOfUseUrl": "https://www.microsoft.com/termsofuse"
@@ -19,13 +19,13 @@
     "full": "This sample app provides a very simple app for Microsoft Teams"
   },
   "icons": {
-    "outline": "contoso20x20.png",
-    "color": "contoso96x96.png"
+    "outline": "weatherinfo20x20.png",
+    "color": "weatherinfo96x96.png"
   },
-  "accentColor": "#60A18E",
+  "accentColor": "#87CEFA",
   "staticTabs": [
     {
-      "entityId": "com.contoso.helloworld.hellotab",
+      "entityId": "weatherinfo.conftab",
       "name": "Hello Tab",
       "contentUrl": "https://weatherinfo20181024050533.azurewebsites.net/summary",
       "scopes": [

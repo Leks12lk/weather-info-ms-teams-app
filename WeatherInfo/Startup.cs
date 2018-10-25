@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Newtonsoft.Json.Serialization;
+using WeatherInfo.Extensions;
 using WeatherInfo.Services;
 
 namespace WeatherInfo
@@ -20,7 +22,11 @@ namespace WeatherInfo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services
+                .AddMvc()
+                .AddJsonOptions(options => options.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver())
+                .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+           
             services.AddSingleton(Configuration);
             services.AddTransient<IWeatherInfoService, WeatherInfoService>();
 
@@ -44,6 +50,8 @@ namespace WeatherInfo
             //    app.UseExceptionHandler("/Error");
             //}
 
+            app.ConfigureExceptionHandler();
+
             app.UseStaticFiles();
             app.UseSpaStaticFiles();
 
@@ -66,6 +74,7 @@ namespace WeatherInfo
                     spa.UseAngularCliServer(npmScript: "start");
                 }
             });
+            
         }
     }
 }
