@@ -1,0 +1,12 @@
+D:\Aleksey\Work\Projects\WeatherInfo\WeatherInfoBots\bin\Debug\netcoreapp2.0\BotConfiguration.bot
+D:\Aleksey\Work\Projects\WeatherInfo\WeatherInfoBots\bin\Debug\netcoreapp2.0\WeatherInfoBots.deps.json
+D:\Aleksey\Work\Projects\WeatherInfo\WeatherInfoBots\bin\Debug\netcoreapp2.0\WeatherInfoBots.runtimeconfig.json
+D:\Aleksey\Work\Projects\WeatherInfo\WeatherInfoBots\bin\Debug\netcoreapp2.0\WeatherInfoBots.runtimeconfig.dev.json
+D:\Aleksey\Work\Projects\WeatherInfo\WeatherInfoBots\bin\Debug\netcoreapp2.0\WeatherInfoBots.dll
+D:\Aleksey\Work\Projects\WeatherInfo\WeatherInfoBots\bin\Debug\netcoreapp2.0\WeatherInfoBots.pdb
+D:\Aleksey\Work\Projects\WeatherInfo\WeatherInfoBots\obj\Debug\netcoreapp2.0\WeatherInfoBots.csprojAssemblyReference.cache
+D:\Aleksey\Work\Projects\WeatherInfo\WeatherInfoBots\obj\Debug\netcoreapp2.0\WeatherInfoBots.csproj.CoreCompileInputs.cache
+D:\Aleksey\Work\Projects\WeatherInfo\WeatherInfoBots\obj\Debug\netcoreapp2.0\WeatherInfoBots.AssemblyInfoInputs.cache
+D:\Aleksey\Work\Projects\WeatherInfo\WeatherInfoBots\obj\Debug\netcoreapp2.0\WeatherInfoBots.AssemblyInfo.cs
+D:\Aleksey\Work\Projects\WeatherInfo\WeatherInfoBots\obj\Debug\netcoreapp2.0\WeatherInfoBots.dll
+D:\Aleksey\Work\Projects\WeatherInfo\WeatherInfoBots\obj\Debug\netcoreapp2.0\WeatherInfoBots.pdb
